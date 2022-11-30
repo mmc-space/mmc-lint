@@ -5,10 +5,8 @@
   "main": "index.js",
   "scripts": {
     "changeset": "changeset add",
-    "build:all": "pnpm turbo run build",
     "version": "changeset version",
-    "release": "pnpm build:all && pnpm release:only",
-    "release:only": "changeset publish"
+    "publish": "changeset publish"
   },
   "repository": {
     "type": "git",
@@ -21,8 +19,7 @@
   "author": "codeDaiQin",
   "license": "MIT",
   "devDependencies": {
-    "@changesets/cli": "^2.23.0",
-    "turbo": "^1.2.16"
+    "@changesets/cli": "^2.23.0"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org",
