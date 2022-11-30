@@ -74,7 +74,7 @@ module.exports = {
             order: [
               'publisher',
               'name',
-              'displayName',
+              // 'displayName',
               'type',
               'version',
               'private',
