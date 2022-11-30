@@ -1,0 +1,30 @@
+{
+  "name": "@mmc-group/eslint-config-monorepo",
+  "version": "0.0.0",
+  "description": "eslint eslint-config",
+  "main": "index.js",
+  "scripts": {
+    "changeset": "changeset add",
+    "build:all": "pnpm turbo run build",
+    "version": "changeset version",
+    "release": "pnpm build:all && pnpm release:only",
+    "release:only": "changeset publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mmc-space/mmc-lint"
+  },
+  "keywords": [
+    "eslint",
+    "eslint-config"
+  ],
+  "author": "codeDaiQin",
+  "license": "MIT",
+  "devDependencies": {
+    "@changesets/cli": "^2.23.0",
+    "turbo": "^1.2.16"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  }
+}

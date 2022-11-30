@@ -1,0 +1,5 @@
+{
+  "extends": [
+    "@mmc-group/eslint-config"
+  ]
+}
