@@ -4,7 +4,7 @@
   "description": "eslint eslint-config",
   "main": "index.js",
   "scripts": {
-    "changeset": "changeset add",
+    "add": "changeset add",
     "version": "changeset version",
     "publish": "changeset publish"
   },
