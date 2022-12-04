@@ -1,8 +1,4 @@
 {
-  "name": "@mmc-group/eslint-config-monorepo",
-  "version": "0.0.0",
-  "description": "eslint eslint-config",
-  "main": "index.js",
   "scripts": {
     "add": "changeset add",
     "version": "changeset version",
@@ -20,9 +16,5 @@
   "license": "MIT",
   "devDependencies": {
     "@changesets/cli": "^2.23.0"
-  },
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org",
-    "access": "public"
   }
 }
