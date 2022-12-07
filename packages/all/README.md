@@ -3,14 +3,14 @@
 ### Install
 
 ```bash
-pnpm add -D eslint @mmc-group/eslint-config
+pnpm add -D eslint @mmc-cloud/eslint-config
 ```
 
 ### Config `.eslintrc`
 
 ```json
 {
-  "extends": "@mmc-group/eslint-config"
+  "extends": "@mmc-cloud/eslint-config"
 }
 ```
 

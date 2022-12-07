@@ -1,5 +1,5 @@
 {
-  "name": "@mmc-group/eslint-config-react",
+  "name": "@mmc-cloud/eslint-config-react",
   "version": "0.0.1",
   "description": "",
   "license": "MIT",
@@ -16,13 +16,11 @@
   "peerDependencies": {
     "eslint": ">=7.4.0"
   },
-  "dependencies": {
-    "@mmc-group/eslint-config-ts": "workspace:*",
-    "eslint-plugin-react": "^7.30.0"
-  },
   "devDependencies": {
     "eslint": "^8.16.0",
     "react": "^18.1.0",
-    "typescript": "^4.7.2"
+    "typescript": "^4.7.2",
+    "@mmc-cloud/eslint-config-ts": "workspace:*",
+    "eslint-plugin-react": "^7.30.0"
   }
 }

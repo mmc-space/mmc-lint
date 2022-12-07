@@ -1,7 +1,7 @@
 module.exports = {
   extends: [
     'plugin:react/recommended',
-    '@mmc-group/eslint-config-ts',
+    '@mmc-cloud/eslint-config-ts',
   ],
   settings: {
     react: {

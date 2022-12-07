@@ -10,7 +10,7 @@ importers:
 
   packages/all:
     specifiers:
-      '@mmc-group/eslint-config-react': workspace:*
+      '@mmc-cloud/eslint-config-react': workspace:*
       '@typescript-eslint/eslint-plugin': ^5.26.0
       '@typescript-eslint/parser': ^5.26.0
       eslint: ^8.16.0
@@ -26,7 +26,7 @@ importers:
       jsonc-eslint-parser: ^2.1.0
       yaml-eslint-parser: ^1.0.1
     dependencies:
-      '@mmc-group/eslint-config-react': link:../react
+      '@mmc-cloud/eslint-config-react': link:../react
       '@typescript-eslint/eslint-plugin': 5.45.0_vbnhqcxlbs7ynbxw44hu2vq7eq
       '@typescript-eslint/parser': 5.45.0_eslint@8.28.0
       eslint-plugin-eslint-comments: 3.2.0_eslint@8.28.0
@@ -74,13 +74,13 @@ importers:
 
   packages/react:
     specifiers:
-      '@mmc-group/eslint-config-ts': workspace:*
+      '@mmc-cloud/eslint-config-ts': workspace:*
       eslint: ^8.16.0
       eslint-plugin-react: ^7.30.0
       react: ^18.1.0
       typescript: ^4.7.2
     dependencies:
-      '@mmc-group/eslint-config-ts': link:../typescript
+      '@mmc-cloud/eslint-config-ts': link:../typescript
       eslint-plugin-react: 7.31.11_eslint@8.28.0
     devDependencies:
       eslint: 8.28.0
@@ -89,7 +89,7 @@ importers:
 
   packages/test/react-project:
     specifiers:
-      '@mmc-group/eslint-config': workspace:*
+      '@mmc-cloud/eslint-config': workspace:*
       '@types/react': ^18.0.0
       '@types/react-dom': ^18.0.0
       '@vitejs/plugin-react': ^1.3.0
@@ -101,7 +101,7 @@ importers:
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
     devDependencies:
-      '@mmc-group/eslint-config': link:../../all
+      '@mmc-cloud/eslint-config': link:../../all
       '@types/react': 18.0.25
       '@types/react-dom': 18.0.9
       '@vitejs/plugin-react': 1.3.2
@@ -110,12 +110,12 @@ importers:
 
   packages/typescript:
     specifiers:
-      '@mmc-group/eslint-config-basic': workspace:*
+      '@mmc-cloud/eslint-config-basic': workspace:*
       '@typescript-eslint/eslint-plugin': ^5.26.0
       '@typescript-eslint/parser': ^5.26.0
       eslint: ^8.16.0
     dependencies:
-      '@mmc-group/eslint-config-basic': link:../basic
+      '@mmc-cloud/eslint-config-basic': link:../basic
       '@typescript-eslint/eslint-plugin': 5.45.0_vbnhqcxlbs7ynbxw44hu2vq7eq
       '@typescript-eslint/parser': 5.45.0_eslint@8.28.0
     devDependencies:

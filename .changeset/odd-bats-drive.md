@@ -1,5 +1,5 @@
 ---
-"@mmc-group/eslint-config": major
+"@mmc-cloud/eslint-config": major
 ---
 
 featrue eslint-config

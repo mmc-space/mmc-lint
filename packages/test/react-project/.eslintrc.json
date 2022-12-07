@@ -1,5 +1,5 @@
 {
   "extends": [
-    "@mmc-group/eslint-config"
+    "@mmc-cloud/eslint-config"
   ]
 }

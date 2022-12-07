@@ -1,8 +1,8 @@
-const basic = require('@mmc-group/eslint-config-basic')
+const basic = require('@mmc-cloud/eslint-config-basic')
 
 module.exports = {
   extends: [
-    '@mmc-group/eslint-config-basic',
+    '@mmc-cloud/eslint-config-basic',
     'plugin:import/typescript',
     'plugin:@typescript-eslint/recommended',
   ],
