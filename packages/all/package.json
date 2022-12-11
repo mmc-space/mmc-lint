@@ -1,6 +1,6 @@
 {
   "name": "@mmc-cloud/eslint-config",
-  "version": "0.0.1",
+  "version": "0.0.5",
   "license": "MIT",
   "keywords": [
     "eslint-config"
