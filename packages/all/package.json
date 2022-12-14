@@ -1,6 +1,6 @@
 {
   "name": "@mmc-cloud/eslint-config",
-  "version": "0.0.5",
+  "version": "1.0.3",
   "license": "MIT",
   "keywords": [
     "eslint-config"
@@ -18,7 +18,8 @@
     "registry": "https://registry.npmjs.org/"
   },
   "peerDependencies": {
-    "eslint": ">=7.4.0"
+    "eslint": ">=7.4.0",
+    "typescript": ">=3.9"
   },
   "dependencies": {
     "@mmc-cloud/eslint-config-react": "workspace:*",
@@ -31,7 +32,6 @@
     "eslint-plugin-n": "^15.2.0",
     "eslint-plugin-promise": "^6.0.0",
     "eslint-plugin-unicorn": "^42.0.0",
-    "eslint-plugin-vue": "^9.0.1",
     "eslint-plugin-yml": "^1.0.0",
     "jsonc-eslint-parser": "^2.1.0",
     "yaml-eslint-parser": "^1.0.1"
