@@ -1,6 +1,6 @@
 {
   "name": "@mmc-cloud/eslint-config-react",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "license": "MIT",
   "keywords": [
@@ -22,15 +22,12 @@
     "url": "https://github.com/mmc-space/mmc-lint"
   },
   "peerDependencies": {
-    "eslint": ">=7.4.0"
+    "eslint": "^8.16.0",
+    "react": "^18.1.0",
+    "typescript": "^4.7.2"
   },
   "dependencies": {
     "@mmc-cloud/eslint-config-ts": "workspace:*",
     "eslint-plugin-react": "^7.30.0"
-  },
-  "devDependencies": {
-    "eslint": "^8.16.0",
-    "react": "^18.1.0",
-    "typescript": "^4.7.2"
   }
 }

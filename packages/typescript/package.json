@@ -1,6 +1,6 @@
 {
   "name": "@mmc-cloud/eslint-config-ts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "license": "MIT",
   "keywords": [
@@ -26,8 +26,5 @@
     "@mmc-cloud/eslint-config-basic": "workspace:*",
     "@typescript-eslint/eslint-plugin": "^5.26.0",
     "@typescript-eslint/parser": "^5.26.0"
-  },
-  "devDependencies": {
-    "eslint": "^8.16.0"
   }
 }
