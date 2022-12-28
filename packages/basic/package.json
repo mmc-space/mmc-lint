@@ -1,6 +1,6 @@
 {
   "name": "@mmc-cloud/eslint-config-basic",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,7 @@
   "peerDependencies": {
     "eslint": ">=7.4.0"
   },
-  "devDependencies": {
+  "dependencies": {
     "eslint": "^8.16.0",
     "eslint-plugin-eslint-comments": "^3.2.0",
     "eslint-plugin-html": "^6.2.0",
