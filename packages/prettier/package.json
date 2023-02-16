@@ -1,0 +1,13 @@
+{
+  "name": "@mmc-cloud/prettier",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.cjs",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "peerDependencies": {
+    "prettier": ">=2.0.0"
+  }
+}
