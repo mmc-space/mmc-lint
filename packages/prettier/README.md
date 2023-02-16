@@ -6,8 +6,6 @@
 $ pnpm add prettier @mmc-cloud/prettier -D
 ```
 
-安装依赖
-
 ### Usage
 
 in `.prettierrc` file
