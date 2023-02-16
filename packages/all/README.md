@@ -2,8 +2,8 @@
 
 ### Install
 
-```bash
-pnpm add -D eslint @mmc-cloud/eslint-config
+```sh
+$ pnpm add -D eslint @mmc-cloud/eslint-config
 ```
 
 ### Config `.eslintrc`
